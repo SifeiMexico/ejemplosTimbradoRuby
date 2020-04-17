@@ -33,7 +33,7 @@ begin
     soapParams= { 
         usuarioSIFEI: usuario,
         passwordSifei:password ,
-        rfcEmisor: idEquipo,
+        rfcEmisor: 'RFC',
         pfx: Base64.encode64(pfx), # PFX CONFORMADO POR key y cert
         passwordPfx: passwordPfx, #         
         uuids:'uuids'
